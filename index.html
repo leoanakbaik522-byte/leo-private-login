@@ -120,10 +120,13 @@
     <script>                                                        
       // Kredensial valid (dienkripsi pake Base64 biar ga plain text) 
       const validCredentials = {                                   
-        username: atob('TC1TNko4TA=='), // L-S6J8L                 
-        password: atob('TC05OEowMUE=')  // L-98J01A                
+        username: atob('L-S6J8L'), // L-S6J8L                 
+        password: atob('L-98J01A')  // L-98J01A                
       };                                                            
-                                                                    
+     // ALERT 
+        alert('Selamat Anda Kena Prank, Ini Hanyalah Halaman Palsu 💋😑'); 
+             }, 500);
+      
       function sanitizeInput(input) {                              
         // Filter karakter berbahaya buat anti SQL injection 
         return input.replace(/['"\\;<>%()&+*\-=/]/g, '');          
